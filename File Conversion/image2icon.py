@@ -1,6 +1,6 @@
 # Joseph Peterson
 # 01/06/2024
-# Iconizer - Converts any image file to multi-size ICO file
+# Image2Icon - Converts any image file to multi-size ICO file
 
 import os
 import sys
