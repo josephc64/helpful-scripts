@@ -17,6 +17,9 @@ def packer(finalName):
     # and the script into a pyInstaller .exe file
     convertImageToIco('icon.png')
     subprocess.run(f"pyinstaller --onefile --icon=icon.ico script.py")
+    
+    os.rename("script.py", f"script-[{finalName}].py"
+    os.rename("icon.png", f"icon-[{finalName}].py"
 
     # Move the finished product out of the temp folder,
     # and back into the execution folder.
